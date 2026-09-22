@@ -6,7 +6,7 @@ Student_number NUMBER,
 Class NUMBER,
 Major VARCHAR2(10) );
 ```
-![OUTPUT](Student2 output.png)
+![OUTPUT](Student output.png)
 ## DESCRIBE STUDENT TABLE
 ```
 DESC Student2;
@@ -58,7 +58,8 @@ Semester VARCHAR2(10),
 Year NUMBER,
 Instructor VARCHAR2(30) );
 ```
-![OUTPUT](section output.png) 
+![OUTPUT](section output.png)
+ 
 ## DESCRIBE SECTION TABLE
 ```
 DESC Section3;
@@ -85,7 +86,7 @@ Student_number NUMBER,
 Section_identifier NUMBER,
 Grade VARCHAR2(5) );
 ```
-![OUTPUT](grade_report output.png)
+![OUTPUT](grade output.png)
 ## DESCRIBE GRADE_REPORT TABLE 
 ```
 DESC Grade_Report2;
