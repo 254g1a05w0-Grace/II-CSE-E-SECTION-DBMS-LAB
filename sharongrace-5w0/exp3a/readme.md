@@ -1,0 +1,68 @@
+## CREATE EMPLOYEE TABLE
+```
+CREATE TABLE EMPLOYEE
+(
+    EMPLOYEE_ID NUMBER(4) PRIMARY KEY,
+    FIRST_NAME VARCHAR2(20),
+    LAST_NAME VARCHAR2(20),
+    GENDER CHAR(1),
+    JOB_ID VARCHAR2(15),
+    DEPARTMENT VARCHAR2(20),
+    SALARY NUMBER(8),
+    COMMISSION NUMBER(5),
+    HIRE_DATE DATE,
+    CITY VARCHAR2(20)
+);
+```
+## DESCRIBE EMPLOYEE TABLE
+```
+DESC EMPLOYEE;
+```
+## INSERT EMPLOYEE TABLE
+```
+INSERT INTO EMPLOYEE
+VALUES (101, 'John', 'Smith', 'M', 'IT_PROG', 'IT', 65000, 5,
+        TO_DATE('15-JAN-2020','DD-MON-YYYY'), 'Hyderabad');
+
+INSERT INTO EMPLOYEE
+VALUES (102, 'Anita', 'Sharma', 'F', 'HR_REP', 'HR', 52000, 3,
+        TO_DATE('10-JUN-2019','DD-MON-YYYY'), 'Bengaluru');
+
+INSERT INTO EMPLOYEE
+VALUES (103, 'Rahul', 'Kumar', 'M', 'SA_REP', 'Sales', 48000, 8,
+        TO_DATE('25-AUG-2021','DD-MON-YYYY'), 'Chennai');
+
+INSERT INTO EMPLOYEE
+VALUES (104, 'Priya', 'Reddy', 'F', 'MK_MAN', 'Marketing', 72000, 10,
+        TO_DATE('05-MAR-2018','DD-MON-YYYY'), 'Hyderabad');
+
+INSERT INTO EMPLOYEE
+VALUES (105, 'David', 'Wilson', 'M', 'FI_ACCOUNT', 'Finance', 58000, NULL,
+        TO_DATE('18-DEC-2017','DD-MON-YYYY'), 'Mumbai');
+
+INSERT INTO EMPLOYEE
+VALUES (106, 'Sneha', 'Patel', 'F', 'IT_PROG', 'IT', 69000, 6,
+        TO_DATE('12-NOV-2022','DD-MON-YYYY'), 'Pune');
+
+INSERT INTO EMPLOYEE
+VALUES (107, 'Amit', 'Verma', 'M', 'SA_REP', 'Sales', 45000, 4,
+        TO_DATE('20-JUL-2023','DD-MON-YYYY'), 'Delhi');
+
+INSERT INTO EMPLOYEE
+VALUES (108, 'Kiran', 'Rao', 'M', 'HR_REP', 'HR', 50000, NULL,
+        TO_DATE('09-FEB-2021','DD-MON-YYYY'), 'Hyderabad');
+
+INSERT INTO EMPLOYEE
+VALUES (109, 'Lakshmi', 'Nair', 'F', 'IT_PROG', 'IT', 76000, 7,
+        TO_DATE('14-SEP-2016','DD-MON-YYYY'), 'Kochi');
+
+INSERT INTO EMPLOYEE
+VALUES (110, 'Arjun', 'Singh', 'M', 'MK_MAN', 'Marketing', 68000, 5,
+        TO_DATE('30-APR-2019','DD-MON-YYYY'), 'Jaipur');
+        
+```
+## DISPLAY EMPLOYEE TABLE
+```
+SELECT * FROM EMPLOYEE;
+```
+
